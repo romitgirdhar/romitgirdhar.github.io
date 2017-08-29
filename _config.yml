@@ -4,6 +4,7 @@ permalink: /:year/:month/:day/:title
 url: http://blog.romitg.com
 baseurl: ""
 name: Data Geek's Blog | Romit Girdhar
+repository: romitgirdhar/romitgirdhar.github.io
 description: All things data!
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 footer-links:
@@ -15,10 +16,14 @@ sass:
   style: :compressed
 kramdown:
   input: GFM
-  css_class: 'highlight'
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
 exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
   - README.md
   - CNAME
+gems:
+  - jekyll-github-metadata
