@@ -11,8 +11,11 @@ footer-links:
   twitter: romitgirdhar
   stackoverflow: users/1909743/datageek
 disqus: romitg-blog
+sass:
+  style: :compressed
 kramdown:
   input: GFM
+  css_class: 'highlight'
 exclude:
   - Gemfile
   - Gemfile.lock
