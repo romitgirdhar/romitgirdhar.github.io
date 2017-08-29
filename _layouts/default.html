@@ -1,11 +1,16 @@
 <!DOCTYPE html>
-	<html>
+	<html lang="{{ site.lang | default: "en-US" }}">
 		<head>
+			<meta charset='utf-8'>
+			<meta http-equiv="X-UA-Compatible" content="chrome=1">
+			<meta name="viewport" content="width=device-width,maximum-scale=2">
+			<meta name="description" content="{{ site.title | default: site.github.repository_name }} : {{ site.description | default: site.github.project_tagline }}">
 			<title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-            <!--[if lt IE 9]>
-            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-            <![endif]-->
-            <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/style.css" />
+			<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<![endif]-->
+			<link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+		{% seo %}
 		</head>
 		<body>
 			<nav>
@@ -15,11 +20,14 @@
                     <li><a href="/about">About</a></li>
 	    		</ul>
 			</nav>
-			<div class="container">
 			
-			{{ content }}
-			
-			</div><!-- /.container -->
+			<!-- MAIN CONTENT -->
+			<div id="main_content_wrap" class="outer">
+				<section id="main_content" class="inner">
+					{{ content }}
+				</section>
+			</div>
+
 			<div class="wrapper-footer">
                 <div class="container">
                     <footer class="footer">
