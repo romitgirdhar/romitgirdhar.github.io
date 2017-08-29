@@ -2,6 +2,7 @@ name: Romit Girdhar
 theme: jekyll-theme-slate
 permalink: /:year/:month/:day/:title
 url: http://blog.romitg.com
+baseurl: ""
 name: Data Geek's Blog | Romit Girdhar
 description: All things data!
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
