@@ -6,6 +6,7 @@ baseurl: ""
 name: Data Geek's Blog | Romit Girdhar
 repository: romitgirdhar/romitgirdhar.github.io
 description: All things data!
+future: true
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 footer-links:
   github: romitgirdhar
@@ -27,3 +28,5 @@ exclude:
   - CNAME
 gems:
   - jekyll-github-metadata
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed
