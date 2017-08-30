@@ -2,6 +2,36 @@
 ---
 @import "{{ site.theme }}";
 
+nav.main-site {
+  float: center;
+}
+
+nav {
+  float: center;
+  font-size: 22px;
+
+  ul {
+    text-align: center;
+  }
+
+  li { 
+    display: inline-block; 
+  }
+
+  a {
+    margin-left: 20px;
+    text-align: center;
+    font-weight: bold;
+    
+    letter-spacing: 1px;
+  }
+
+  a:hover{
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
 
 .svg-icon {
   width: 40px;
