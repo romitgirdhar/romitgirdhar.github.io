@@ -2,6 +2,10 @@
 ---
 @import "{{ site.theme }}";
 
+em{
+  color: #808080;
+}
+
 nav.main-site {
   float: center;
 }
