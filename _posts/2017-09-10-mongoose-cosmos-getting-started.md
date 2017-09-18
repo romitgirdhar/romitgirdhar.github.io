@@ -4,7 +4,6 @@ title: "Using the Mongoose framework with Cosmos DB"
 comments: true
 date: 2017-09-10
 ---
-# Using the Mongoose framework with Cosmos DB
 
 Azure Cosmos DB is Microsoft’s globally distributed multi-model database service. You can quickly create and query document, key/value, and graph databases, all of which benefit from the global distribution and horizontal scale capabilities at the core of Azure Cosmos DB.
 
