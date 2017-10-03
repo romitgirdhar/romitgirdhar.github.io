@@ -37,7 +37,7 @@ If you'd like to skip the walkthrough and take a look at the sample (or clone it
 1. Import the dependencies in your index.js
     ``` 
     var mongoose = require('mongoose');
-    var env = require('dotenv').load();
+    var env = require('dotenv').load();  //Use this npm package to load data from a .env file
     ```
 
 1. Connect to Cosmos DB using the Mongoose
